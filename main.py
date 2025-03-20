@@ -4,7 +4,7 @@
 
 import asyncio
 from machine import Pin
-from led_async import LED_async  # Class as listed above
+from lib.led_async import LED_async  # Class as listed above
 
 async def main():
     pines = [14, 17]
